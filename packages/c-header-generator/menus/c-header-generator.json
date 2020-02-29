@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle c-header-generator",
+        "command": "c-header-generator:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "c-header-generator",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "c-header-generator:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

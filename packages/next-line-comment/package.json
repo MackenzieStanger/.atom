@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/next-line-comment/versions/0.2.1/tarball",
+  "_id": "next-line-comment@0.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-ROlES7t93S/At8IFcaUROU67mCfATz+KbO+jONTCk9bquqtr9C+6KrlZ+QU++Q7PR9Zg2Hu2t3hp/q+NgEi55A==",
+  "_location": "/next-line-comment",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/next-line-comment/versions/0.2.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/next-line-comment/versions/0.2.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/next-line-comment/versions/0.2.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/next-line-comment/versions/0.2.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/next-line-comment/versions/0.2.1/tarball",
+  "_shasum": "0094bf8e666c128beabb4005a8e7a50b856d6997",
+  "_spec": "https://www.atom.io/api/packages/next-line-comment/versions/0.2.1/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-1191030-37218-ztj1g2.q81u",
+  "activationCommands": {
+    "atom-workspace": "next-line-comment:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/evmorov/next-line-comment/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Go to the next line after commenting",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/evmorov/next-line-comment#readme",
+  "keywords": [
+    "comment"
+  ],
+  "license": "MIT",
+  "main": "./lib/next-line-comment",
+  "name": "next-line-comment",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evmorov/next-line-comment.git"
+  },
+  "version": "0.2.1"
+}

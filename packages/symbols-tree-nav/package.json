@@ -1,0 +1,58 @@
+{
+  "_from": "https://www.atom.io/api/packages/symbols-tree-nav/versions/0.15.5/tarball",
+  "_id": "symbols-tree-nav@0.15.5",
+  "_inBundle": false,
+  "_integrity": "sha512-45rv0U2dkD2Koo0mmmjOtxoCU3aGTG0742iePUQztdpbfwiyeVxpddM4BMU5kuQfvf0ZuNc0v1MDZbMxFItWog==",
+  "_location": "/symbols-tree-nav",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/symbols-tree-nav/versions/0.15.5/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/symbols-tree-nav/versions/0.15.5/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/symbols-tree-nav/versions/0.15.5/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/symbols-tree-nav/versions/0.15.5/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/symbols-tree-nav/versions/0.15.5/tarball",
+  "_shasum": "6950eab7bcf0c03bc38e1078eb0cf5e90d7fd46d",
+  "_spec": "https://www.atom.io/api/packages/symbols-tree-nav/versions/0.15.5/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-120127-14867-5bnaqz.h39k5",
+  "bugs": {
+    "url": "https://github.com/nicolashainaux/symbols-tree-nav/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0",
+    "event-kit": "latest",
+    "q": "~1.0.1"
+  },
+  "deprecated": false,
+  "description": "A symbols view like taglist (experimental fork from symbols-tree-view)",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/nicolashainaux/symbols-tree-nav#readme",
+  "keywords": [
+    "taglist",
+    "tagbar",
+    "symbols"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "symbols-tree-nav",
+  "providedServices": {
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "getProvider"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolashainaux/symbols-tree-nav.git"
+  },
+  "version": "0.15.5"
+}

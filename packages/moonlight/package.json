@@ -1,0 +1,45 @@
+{
+  "_from": "https://www.atom.io/api/packages/moonlight/versions/0.11.0/tarball",
+  "_id": "moonlight@0.11.0",
+  "_inBundle": false,
+  "_integrity": "sha512-RiiPqkHncz3AOqGEW1H2l2LwxhvSKt8oa2U051nD8L/ZgPnctXsJAiAr6muUofeKyLgqn84U3/DGG93te0wOrg==",
+  "_location": "/moonlight",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/moonlight/versions/0.11.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/moonlight/versions/0.11.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/moonlight/versions/0.11.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/moonlight/versions/0.11.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/moonlight/versions/0.11.0/tarball",
+  "_shasum": "1c3128cd99eda3fead031aa16f8675a142cdc88e",
+  "_spec": "https://www.atom.io/api/packages/moonlight/versions/0.11.0/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-119519-1788-1u4tgn2.knc2",
+  "bugs": {
+    "url": "https://github.com/atomiks/moonlight-theme/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Bright bubblegum colors with a moonlit gradient background.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/atomiks/moonlight-theme#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "moonlight",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomiks/moonlight-theme.git"
+  },
+  "theme": "syntax",
+  "version": "0.11.0"
+}

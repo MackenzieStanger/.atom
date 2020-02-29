@@ -1,0 +1,41 @@
+{
+  "_from": "https://www.atom.io/api/packages/rainbow-selection/versions/0.3.2/tarball",
+  "_id": "rainbow-selection@0.3.2",
+  "_inBundle": false,
+  "_integrity": "sha512-JlLuj1jJQErNpIlH38q/i/9uiHCxwFgmDuGSIS/nE72ZCfsAsjgR/sWThWxtbQDbKQJ+AzuJaE0uiQHJM1QeYA==",
+  "_location": "/rainbow-selection",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/rainbow-selection/versions/0.3.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/rainbow-selection/versions/0.3.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/rainbow-selection/versions/0.3.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/rainbow-selection/versions/0.3.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/rainbow-selection/versions/0.3.2/tarball",
+  "_shasum": "f71e1f6c71ca88c7cad8c52533cf0254555b1361",
+  "_spec": "https://www.atom.io/api/packages/rainbow-selection/versions/0.3.2/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-1191028-34636-648c7t.861ht",
+  "bugs": {
+    "url": "https://github.com/dmnd/rainbow-selection/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Unnecessarily colourful selections",
+  "engines": {
+    "atom": ">0.175.0"
+  },
+  "homepage": "https://github.com/dmnd/rainbow-selection#readme",
+  "license": "MIT",
+  "main": "./lib/rainbow-selection",
+  "name": "rainbow-selection",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmnd/rainbow-selection.git"
+  },
+  "version": "0.3.2"
+}

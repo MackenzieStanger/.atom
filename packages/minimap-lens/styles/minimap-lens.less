@@ -1,0 +1,117 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.minimap-lens-container {
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  will-change: transform;
+
+  &:before {
+    background: linear-gradient(to bottom, @background-color-selected, transparent);
+    content: '';
+    display: block;
+    height: 25px;
+    left: 1px;
+    position: absolute;
+    top: 1px;
+    width: calc(~'100% - 12px');
+    z-index: 1;
+  }
+
+  &:after {
+    background: linear-gradient(to top, @background-color-selected, transparent);;
+    bottom: 1px;
+    content: '';
+    display: block;
+    height: 25px;
+    left: 1px;
+    position: absolute;
+    width: calc(~'100% - 12px');
+    z-index: 1;
+  }
+
+  &.is-hide {
+    visibility: hidden;
+  }
+
+  .clip {
+    background: @text-color;
+    clip-path: polygon(
+      0% 0%,
+      calc(~'100% - 8px') 0,
+      calc(~'100% - 8px') calc(~'50% - 8px'),
+      100% 50%,
+      calc(~'100% - 8px') calc(~'50% + 8px'),
+      calc(~'100% - 8px') 100%,
+      0 100%
+    );
+
+    &-inner {
+      background: @base-background-color;
+      clip-path: polygon(
+        1px 1px,
+        calc(~'100% - 9px') 1px,
+        calc(~'100% - 9px') calc(~'50% - 7px'),
+        calc(~'100% - 1px') 50%,
+        calc(~'100% - 9px') calc(~'50% + 7px'),
+        calc(~'100% - 9px') calc(~'100% - 1px'),
+        1px calc(~'100% - 1px')
+      );
+      height: 200px;
+    };
+  }
+
+  atom-text-editor {
+    padding-left: 1px;
+    will-change: transform;
+
+    &[with-minimap] > div {
+      margin-left: 0 !important;
+    }
+  }
+
+  atom-text-editor-minimap {
+    display: none;
+  }
+}
+
+.minimap-lens-container.left {
+  &:before,
+  &:after {
+    left: auto;
+    right: 1px;
+    width: calc(~'100% - 8px');
+  }
+
+  .clip {
+    clip-path: polygon(
+      0% 50%,
+      6px calc(~'50% - 8px'),
+      6px 0%,
+      100% 0%,
+      100% 100%,
+      6px 100%,
+      6px calc(~'50% + 8px')
+    );
+
+    &-inner {
+      clip-path: polygon(
+        1px 50%,
+        7px calc(~'50% - 7px'),
+        7px 1px,
+        calc(~'100% - 1px') 1px,
+        calc(~'100% - 1px') calc(~'100% - 1px'),
+        7px calc(~'100% - 1px'),
+        7px calc(~'50% + 7px')
+      );
+    }
+  }
+
+  atom-text-editor {
+    padding-left: 7px;
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "_from": "https://www.atom.io/api/packages/hedgehog-syntax/versions/3.1.0/tarball",
+  "_id": "hedgehog-syntax@3.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-0y5/iSVmfg9P3L1pLOjisUm/whx43w3MUhUzb6Embl+MgeyojclF4Gt76ElvsTOnjqjkmzWNkArEDhz0QYoCbw==",
+  "_location": "/hedgehog-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/hedgehog-syntax/versions/3.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/hedgehog-syntax/versions/3.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/hedgehog-syntax/versions/3.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/hedgehog-syntax/versions/3.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/hedgehog-syntax/versions/3.1.0/tarball",
+  "_shasum": "48e353a67909ce8ee3e1f1516bbbfbb804fcd248",
+  "_spec": "https://www.atom.io/api/packages/hedgehog-syntax/versions/3.1.0/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-1191030-41534-g5lfqc.4bwgp",
+  "bugs": {
+    "url": "https://github.com/juuuuushin/hedgehog-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "NoIllust": {
+      "type": "boolean",
+      "default": false
+    },
+    "NoWalking": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "deprecated": false,
+  "description": "Walking hedgehog. Cute theme.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/juuuuushin/hedgehog-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "cute",
+    "pastel",
+    "dark"
+  ],
+  "license": "MIT",
+  "name": "hedgehog-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juuuuushin/hedgehog-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "3.1.0"
+}

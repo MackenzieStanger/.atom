@@ -1,0 +1,133 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+@font-face {
+  font-family: 'symbol-icons';
+  src: url('atom://symbols-tree-nav/icons/symbol-icons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.symbols-tree-nav {
+  width: 200px;
+  height: 100%;
+  padding: 4px;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.symbols-context-menu {
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  .hidden-input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: none;
+  }
+  .select-list.popover-list {
+    width: 100%;
+    min-width: 100%;
+    ol {
+      margin-top: 0;
+      .separator {
+        background: @background-color-highlight;
+        height: 1px;
+      }
+      li:hover {
+        background: @background-color-highlight;
+      }
+    }
+  }
+}
+
+@symbol-class:    '\e900';
+@symbol-struct:   '\e901';
+@symbol-macro:    '\e906';
+@symbol-typedef:  '\e908';
+@symbol-union:    '\e909';
+@symbol-interface:'\e904';
+@symbol-enum:     '\e902';
+@symbol-variable: '\e90a';
+@symbol-function: '\e903';
+@symbol-namespace:'\e907';
+@symbol-library:  '\e905';
+@symbol-source:   '\e90b';
+
+.symbol-icon(@name) {
+  font-family: 'symbol-icons';
+  content: @@name;
+}
+
+.symbols-tree-nav .icon-function::before {
+  .symbol-icon(symbol-function);
+}
+
+.symbols-tree-nav .icon-functionVar::before {
+  .symbol-icon(symbol-variable);
+}
+
+.symbols-tree-nav .icon-globalVar::before {
+  .symbol-icon(symbol-variable);
+}
+
+.symbols-tree-nav .icon-class::before {
+  .symbol-icon(symbol-class);
+}
+
+.symbols-tree-nav .icon-namespace::before {
+  .symbol-icon(symbol-namespace);
+}
+
+.symbols-tree-nav .icon-library::before {
+  .symbol-icon(symbol-library);
+}
+
+.symbols-tree-nav .icon-source::before {
+  .symbol-icon(symbol-source);
+}
+
+.symbols-tree-nav .icon-struct::before {
+  .symbol-icon(symbol-struct);
+}
+
+.symbols-tree-nav .icon-variable::before {
+  .symbol-icon(symbol-variable);
+}
+
+.symbols-tree-nav .icon-method::before {
+  .symbol-icon(symbol-function);
+}
+
+.symbols-tree-nav .icon-field::before {
+  .symbol-icon(symbol-variable);
+}
+
+.symbols-tree-nav .icon-member::before {
+  .symbol-icon(symbol-variable);
+}
+
+.symbols-tree-nav .icon-interface::before {
+  .symbol-icon(symbol-interface);
+}
+
+.symbols-tree-nav .icon-enum::before {
+  .symbol-icon(symbol-enum);
+}
+
+.symbols-tree-nav .icon-typedef::before {
+  .symbol-icon(symbol-typedef);
+}
+
+.symbols-tree-nav .icon-macro::before {
+  .symbol-icon(symbol-macro);
+}
+
+.symbols-tree-nav .icon-union::before {
+  .symbol-icon(symbol-union);
+}

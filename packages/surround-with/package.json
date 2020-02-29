@@ -1,0 +1,55 @@
+{
+  "_from": "https://www.atom.io/api/packages/surround-with/versions/0.0.4/tarball",
+  "_id": "surround-with@0.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-pOwoR9g8YASoEI7xH39LUbPQta4wcbNruXjP/emvJYWs/kB+zwyz86yawruI6EV+NGqzXKO7ZaQKyCowpzVaJw==",
+  "_location": "/surround-with",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/surround-with/versions/0.0.4/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/surround-with/versions/0.0.4/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/surround-with/versions/0.0.4/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/surround-with/versions/0.0.4/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/surround-with/versions/0.0.4/tarball",
+  "_shasum": "0239539556edd51695782318b10b12627f074440",
+  "_spec": "https://www.atom.io/api/packages/surround-with/versions/0.0.4/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-1191030-37583-hx50yo.1jeh",
+  "author": {
+    "name": "Antonio Bevilacqua",
+    "email": "b3by.in.th3.sky@gmail.com",
+    "url": "https://github.com/b3by"
+  },
+  "bugs": {
+    "url": "https://github.com/b3by/surround-with/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-space-pen-views": "^2.1.x",
+    "fuzzaldrin": "^2.1.X"
+  },
+  "deprecated": false,
+  "description": "Easily surround code selections with language constructs",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/b3by/surround-with#readme",
+  "keywords": [
+    "surround",
+    "selection",
+    "construct"
+  ],
+  "license": "MIT",
+  "main": "./lib/surround-with",
+  "name": "surround-with",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b3by/surround-with.git"
+  },
+  "version": "0.0.4"
+}

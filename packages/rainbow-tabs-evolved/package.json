@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/rainbow-tabs-evolved/versions/2.7.9/tarball",
+  "_id": "rainbow-tabs-evolved@2.7.9",
+  "_inBundle": false,
+  "_integrity": "sha512-9/KDFqr1Olrz+oHUW178j0B7RvfOkBcdN8g4hmkfDEZ3jXDaciIELcvWbpDBLmD83Seat6Qtq5U53kiw0yjK+w==",
+  "_location": "/rainbow-tabs-evolved",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/rainbow-tabs-evolved/versions/2.7.9/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/rainbow-tabs-evolved/versions/2.7.9/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/rainbow-tabs-evolved/versions/2.7.9/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/rainbow-tabs-evolved/versions/2.7.9/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/rainbow-tabs-evolved/versions/2.7.9/tarball",
+  "_shasum": "063001bcd3abc93e520e45432d037043455ba324",
+  "_spec": "https://www.atom.io/api/packages/rainbow-tabs-evolved/versions/2.7.9/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-1191028-34496-sd0er0.0nxwl",
+  "bugs": {
+    "url": "https://github.com/sbrl/rainbow-tabs-evolved/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Adds color to the text of atom tabs, according to file extension (e.g. JS tabs are yellow). Forked from  graemeboy/rainbow-tabs due to inactivity.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/sbrl/rainbow-tabs-evolved#readme",
+  "keywords": [
+    "tabs",
+    "color",
+    "extension"
+  ],
+  "license": "MIT",
+  "main": "./lib/rainbow-tabs",
+  "name": "rainbow-tabs-evolved",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbrl/rainbow-tabs-evolved.git"
+  },
+  "version": "2.7.9"
+}

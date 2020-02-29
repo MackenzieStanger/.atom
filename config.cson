@@ -1,0 +1,142 @@
+"*":
+  "activate-power-mode":
+    comboMode:
+      activationThreshold: [
+        "0"
+        "20"
+        "50"
+        "100"
+        "200"
+        "500"
+      ]
+      enabled: false
+      opacity: 0.3
+    flow: "default"
+    particles:
+      colours:
+        type: "randomSpawn"
+      effect: "powerEffectsStars"
+    plugins:
+      playAudio: true
+      screenShake: true
+    screenShake:
+      enabled: false
+  "atom-ctags": {}
+  "atom-material-ui":
+    colors:
+      abaseColor: "#005b78"
+      accentColor: "#912300"
+      genAccent: true
+    tabs:
+      compactTabs: true
+    ui:
+      panelContrast: true
+  "color-indent":
+    gutterWidth: true
+    indentationDepthLevel: 10
+  core:
+    disabledPackages: [
+      "background-tips"
+      "git-control-fork"
+      "keybinding-cheatsheet"
+      "regular-notifications"
+      "minimap-pigments"
+      "activate-power-mode"
+      "power-effects"
+    ]
+    packagesWithSnippetsDisabled: []
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "monokai-plus"
+    ]
+    useTreeSitterParsers: false
+  "cursor-blink-interval":
+    cursorBlinkInterval: 10000
+  docblockr:
+    c_style_block_comments: true
+    extend_double_slash: false
+  editor:
+    fontSize: 15
+    showIndentGuide: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "db5c468a-c976-49f7-8119-359f17c2179a"
+  "flex-tool-bar": {}
+  "folded-code-preview":
+    autoAlign: true
+  fonts:
+    fontFamily: "Monoid"
+  "git-diff": {}
+  "hedgehog-syntax": {}
+  "keybinding-cheatsheet": {}
+  minimap:
+    independentMinimapScroll: true
+    moveCursorOnMinimapClick: true
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      "lens-mode": true
+      "lens-modeDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+      selection: true
+      selectionDecorationsZIndex: 0
+      "split-diff": true
+      "split-diffDecorationsZIndex": 0
+  "minimap-git-diff": {}
+  "multiline-bracket":
+    lastTrailingComma: false
+  "new-tab":
+    position: "Center"
+  pigments:
+    ignoredBufferNames: [
+      "*.h"
+      "*.c"
+    ]
+    sortPaletteColors: "by name"
+  "pinned-tabs":
+    visualstudio: {}
+  playyoutube:
+    searchSettings:
+      mode: "none"
+  "regular-notifications":
+    DurationInSeconds: 30
+    NotificationText: "test message"
+  "seti-ui":
+    themeColor: "Green"
+  "simple-drag-drop-text":
+    delay: 5
+  "status-bar": {}
+  "symbols-tree-nav":
+    colorsFromSyntaxTheme: true
+  terminus:
+    core:
+      autoRunCommand: "clear"
+      shellEnv: "USST_DIR=/Users/mackenziestanger/Desktop/USST"
+    style:
+      theme: "one-dark"
+  "todo-show":
+    showInTable: [
+      "Text"
+      "Type"
+      "File"
+      "Line"
+    ]
+    statusBarIndicator: true
+  "tool-bar":
+    iconSize: "16px"
+    useTouchBar: false
+  "toolbar-ide":
+    position: "Top"
+  "tree-view":
+    autoReveal: true
+  welcome:
+    showOnStartup: false

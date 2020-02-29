@@ -1,0 +1,59 @@
+{
+  "_from": "https://www.atom.io/api/packages/ctags-status/versions/1.4.0/tarball",
+  "_id": "ctags-status@1.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-LyGQ6Xa7sKE69TqkLO5A3oMcOU06l8g58HuOy1l6MHqTCWKa5MbaubsPPPonaUCr4qgNjpcanhjYFM7sRKOEjg==",
+  "_location": "/ctags-status",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/ctags-status/versions/1.4.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/ctags-status/versions/1.4.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/ctags-status/versions/1.4.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/ctags-status/versions/1.4.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/ctags-status/versions/1.4.0/tarball",
+  "_shasum": "d40551846281e341f20286fcd3ea73eecfd21607",
+  "_spec": "https://www.atom.io/api/packages/ctags-status/versions/1.4.0/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-120126-96871-josmzc.rrz9p",
+  "bugs": {
+    "url": "https://github.com/mrkschan/ctags-status/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "q": "^1.2.0"
+  },
+  "deprecated": false,
+  "description": "Show the class/function/scope name of the current line on the status bar.",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/mrkschan/ctags-status#readme",
+  "keywords": [
+    "class",
+    "ctags",
+    "function",
+    "scope",
+    "statusbar",
+    "symbol"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "ctags-status",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrkschan/ctags-status.git"
+  },
+  "version": "1.4.0"
+}

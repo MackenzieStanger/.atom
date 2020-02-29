@@ -1,0 +1,5 @@
+'.platform-darwin atom-workspace atom-text-editor:not([mini])':
+  'cmd-/': 'next-line-comment:toggle'
+
+'.platform-win32 atom-workspace atom-text-editor:not([mini]), .platform-linux atom-workspace atom-text-editor:not([mini])':
+  'ctrl-/': 'next-line-comment:toggle'

@@ -1,0 +1,107 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+'.source.coffee':
+  'snippet':
+    'prefix': 'snip'
+    'body': """
+    \'${1:name}\':
+      \'prefix\': \'${2:prefix}\'
+      \'body\': \'${3:body}\'
+    """
+
+'.source.c':
+  'Free RTOS Task Create':
+    'prefix': 'create_task'
+    'body': """
+            xTaskCreate(${1:Task Code},
+                        ${2:Task Name},
+                        ${3:configMINIMAL_STACK_SIZE},
+                        ${4:Task Parameter},
+                        ${5:Task Priority},
+                        ${6:Task Handle}
+                        );
+            """
+  'Task Stub':
+    'prefix': 'task_stub'
+    'body': 'void v${1:taskName}(void *pvParameters);'
+
+  'Task Function':
+    'prefix': 'task_func'
+    'body': """
+    void v${1:taskName}(void *pvParameters){
+        while(1){
+          $2
+        }
+    }"""
+
+  'Delay':
+    'prefix': 'delay'
+    'body': 'vTaskDelay(${1:ticks});'
+
+  'Queue Variable':
+    'prefix': 'queue_var'
+    'body': 'QueueHandle_t x${1:varName};'
+
+  'Create Queue':
+    'prefix': 'create_queue'
+    'body': 'x${1:varName} = xQueueCreate(${2:numItems}, ${3:sizeOfItems});'
+
+  'Send to front of queue':
+    'prefix': 'send_to_front'
+    'body': 'xQueueSendToFront(${1:Queue}, &${2:item}, ${3:ticksToWait});'
+
+  'Send To back of queue':
+    'prefix': 'send_to_back'
+    'body': 'xQueueSendToBack(${1:Queue}, &${2:item}, ${3:ticksToWait});'
+
+  'Queue Receive':
+    'prefix': 'queue_receive';
+    'body': 'xQueueReceive(${1:Queue}, ${2:receiverVar}, ${3:ticksToWait});'
+
+  'Check Queue':
+    'prefix': 'check_queue'
+    'body': 'uxQueueMessagesWaiting(${1:Queue});'
+
+  'Tick Variable':
+    'prefix': 'tick_var'
+    'body': 'TickType_t x${1:varName};'
+
+  'ms_to_ticks':
+    'prefix': 'ms_to_ticks'
+    'body': 'pdMS_TO_TICKS(${1:miliseconds})'
+
+  'Set Var':
+    'prefix': 'set_var'
+    'body': 'QueueSetHandle_t x${1:varName};'
+
+  'Create Set':
+    'prefix': 'create_set'
+    'body': '${1:varName} = xQueueCreateSet(${2:length});'
+
+  'Add To Set':
+    'prefix': 'add_to_set'
+    'body': 'xQueueAddToSet(${1:QueueOrSemaphore}, ${2:set});'
+
+  'Get from set':
+    'prefix': 'get_from_set'
+    'body': '${1:var} = xQueueSelectFromSet(${2:set}. ${3:ticksToWait});'

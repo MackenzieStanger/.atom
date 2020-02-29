@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/c-header-generator/versions/0.2.0/tarball",
+  "_id": "c-header-generator@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-/mzIhGJtKT9pyIQIH/CC6h8iz7DovQ4wsJ5S5Pp68UBJnpYgTso9KzbZQuUEx77I71fs86q86b+MPVeVx4O9uw==",
+  "_location": "/c-header-generator",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/c-header-generator/versions/0.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/c-header-generator/versions/0.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/c-header-generator/versions/0.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/c-header-generator/versions/0.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/c-header-generator/versions/0.2.0/tarball",
+  "_shasum": "c77b1809da79db6577c3d8803b695dedba1dc2cd",
+  "_spec": "https://www.atom.io/api/packages/c-header-generator/versions/0.2.0/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-1191113-57089-s84qwv.61d5",
+  "activationCommands": {
+    "atom-workspace": "c-header-generator:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/tiphedor/c-header-generator/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Auto insert an include guard into .h file",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/tiphedor/c-header-generator#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/c-header-generator",
+  "name": "c-header-generator",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tiphedor/c-header-generator.git"
+  },
+  "version": "0.2.0"
+}

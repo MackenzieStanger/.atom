@@ -1,0 +1,79 @@
+{
+  "_from": "https://www.atom.io/api/packages/minimap-lens/versions/0.3.0/tarball",
+  "_id": "minimap-lens@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-+ykgZD3R0sF4y2SQXZAFWWqIC7HaP4/Z4IO6bB08DDan7XG4kBH2t85auMkOgLFD70RThEWirI+4sx4uzvGpNg==",
+  "_location": "/minimap-lens",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/minimap-lens/versions/0.3.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/minimap-lens/versions/0.3.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/minimap-lens/versions/0.3.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/minimap-lens/versions/0.3.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/minimap-lens/versions/0.3.0/tarball",
+  "_shasum": "30e491ad3db10e028769f3172aa4d034ad4586aa",
+  "_spec": "https://www.atom.io/api/packages/minimap-lens/versions/0.3.0/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-1191027-31807-1yvx825.v4d6h",
+  "bugs": {
+    "url": "https://github.com/iyonaga/minimap-lens/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "minimap": {
+      "versions": {
+        "1.0.0": "consumeMinimapServiceV1"
+      }
+    }
+  },
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Show code lens on hovering to Minimap.",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0",
+    "eslint-config-prettier": "^3.4.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.3",
+    "prettier-eslint-cli": "^4.7.1"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/iyonaga/minimap-lens#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "keywords": [
+    "minimap",
+    "lens",
+    "lens-mode"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "prettier-eslint --write",
+      "git add"
+    ]
+  },
+  "main": "./lib/minimap-lens",
+  "name": "minimap-lens",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iyonaga/minimap-lens.git"
+  },
+  "scripts": {
+    "lint": "eslint '{lib,spec}/**/*.js' --format codeframe",
+    "lint:fix": "prettier-eslint --write '{lib,spec}/**/*.js'"
+  },
+  "version": "0.3.0"
+}

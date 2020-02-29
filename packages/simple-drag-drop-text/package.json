@@ -1,0 +1,44 @@
+{
+  "_from": "https://www.atom.io/api/packages/simple-drag-drop-text/versions/0.5.0/tarball",
+  "_id": "simple-drag-drop-text@0.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-dIYZdG1uzFeE8RKFCxOJ4bQ/SebyVXan3TdN/TTi/uHPThBwdbPN2zJOdwsU4/Fqv7xExnWmq8+O7bQZ9elO8A==",
+  "_location": "/simple-drag-drop-text",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/simple-drag-drop-text/versions/0.5.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/simple-drag-drop-text/versions/0.5.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/simple-drag-drop-text/versions/0.5.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/simple-drag-drop-text/versions/0.5.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/simple-drag-drop-text/versions/0.5.0/tarball",
+  "_shasum": "e700f440f65dd7d2e83a8fe0eb61c9df10ff8d19",
+  "_spec": "https://www.atom.io/api/packages/simple-drag-drop-text/versions/0.5.0/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-1191120-3112-1dvwk1s.sh6k",
+  "bugs": {
+    "url": "https://github.com/geoffthibeau/simple-drag-drop-text/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "sub-atom": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "Adds basic drag and drop text feature to Atom editor.",
+  "engines": {
+    "atom": ">0.170.0"
+  },
+  "homepage": "https://github.com/geoffthibeau/simple-drag-drop-text#readme",
+  "license": "MIT",
+  "main": "./lib/simple-drag-drop-text",
+  "name": "simple-drag-drop-text",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geoffthibeau/simple-drag-drop-text.git"
+  },
+  "version": "0.5.0"
+}

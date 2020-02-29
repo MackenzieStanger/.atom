@@ -1,0 +1,41 @@
+{
+  "_from": "https://www.atom.io/api/packages/monokai-plus/versions/0.1.3/tarball",
+  "_id": "monokai-plus@0.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-27MnEYK+I8GeR08ymWAAHNbbR3UhnCuza8e+aLH2Xy49DiukxR40XIq2xS9Ov9VHrRxQMDQKkgxcjvvWgB/h8w==",
+  "_location": "/monokai-plus",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/monokai-plus/versions/0.1.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/monokai-plus/versions/0.1.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/monokai-plus/versions/0.1.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/monokai-plus/versions/0.1.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/monokai-plus/versions/0.1.3/tarball",
+  "_shasum": "ae676badf064ab9d04c1fe3835bd9b143647f78a",
+  "_spec": "https://www.atom.io/api/packages/monokai-plus/versions/0.1.3/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-120123-87450-cssz5l.03gxv",
+  "bugs": {
+    "url": "https://github.com/caktux/monokai-plus/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Monokai theme with highlighted variables and function calls when declared by language grammars",
+  "engines": {
+    "atom": "*"
+  },
+  "homepage": "https://github.com/caktux/monokai-plus#readme",
+  "license": "MIT",
+  "name": "monokai-plus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caktux/monokai-plus.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.3"
+}

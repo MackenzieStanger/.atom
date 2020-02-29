@@ -1,0 +1,71 @@
+{
+  "_from": "https://www.atom.io/api/packages/bracket-padder/versions/0.4.2/tarball",
+  "_id": "bracket-padder@0.4.2",
+  "_inBundle": false,
+  "_integrity": "sha512-cQ5dxo2rgZ+lrPGaLV/XFpyXFwzNN1f7hJemueh3WGqZ7tnWfYpSllITwa44JKgCBNDUhEvUzCc+vdjsat6Uxw==",
+  "_location": "/bracket-padder",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/bracket-padder/versions/0.4.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/bracket-padder/versions/0.4.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/bracket-padder/versions/0.4.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/bracket-padder/versions/0.4.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/bracket-padder/versions/0.4.2/tarball",
+  "_shasum": "63a31ca69773e416787612b6d1694dd870cac68a",
+  "_spec": "https://www.atom.io/api/packages/bracket-padder/versions/0.4.2/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-1191114-57261-dudx12.f9nng",
+  "author": {
+    "name": "Johan West",
+    "email": "johan.west@viablelab.com"
+  },
+  "bugs": {
+    "url": "https://github.com/viablelab/bracket-padder/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "underscore-plus": "^1.6.6"
+  },
+  "deprecated": false,
+  "description": "Convenient padding and closing of brackets.",
+  "devDependencies": {
+    "coffeelint": "^1.16.0"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/viablelab/bracket-padder#readme",
+  "keywords": [
+    "atom",
+    "vim",
+    "auto",
+    "pairs",
+    "pad",
+    "padded",
+    "padding",
+    "space",
+    "spaces",
+    "insert",
+    "brackets",
+    "curly bracket",
+    "square bracket",
+    "parentheses",
+    "parens",
+    "braces",
+    "auto pairs",
+    "whitespace"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "bracket-padder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viablelab/bracket-padder.git"
+  },
+  "version": "0.4.2"
+}

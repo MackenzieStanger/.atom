@@ -1,0 +1,67 @@
+{
+  "_from": "https://www.atom.io/api/packages/power-effects/versions/0.5.0/tarball",
+  "_id": "power-effects@0.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-5jH7yorsSj2ddbDmE8hbiu5Mhof7hqy7BQjnecXcb7jvTQ4PXadBugIZKELiCeR/ZUKIv5kJBRdf4B/6pB3G6A==",
+  "_location": "/power-effects",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/power-effects/versions/0.5.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/power-effects/versions/0.5.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/power-effects/versions/0.5.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/power-effects/versions/0.5.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/power-effects/versions/0.5.0/tarball",
+  "_shasum": "eba99d373a64bf0876ab81730c71a3503415189d",
+  "_spec": "https://www.atom.io/api/packages/power-effects/versions/0.5.0/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-1191028-34315-84g3w2.bfz9e",
+  "author": {
+    "name": "Daniel Alejandro Cast",
+    "email": "lexcast13@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/lexcast/power-effects/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "activate-power-mode": {
+      "versions": {
+        "^1.0.0": "consumeActivatePowerModeServiceV1"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.6.2",
+    "lodash.random": "^3.2.0"
+  },
+  "deprecated": false,
+  "description": "Extra cool effects for the Activate Power Mode Package",
+  "engines": {
+    "atom": ">=1.17.0 <2.0.0"
+  },
+  "homepage": "https://github.com/lexcast/power-effects#readme",
+  "keywords": [
+    "effect",
+    "activate-power-mode",
+    "power-mode",
+    "stars",
+    "hearts",
+    "lights"
+  ],
+  "license": "MIT",
+  "main": "./lib/power-effects",
+  "name": "power-effects",
+  "package-deps": [
+    "activate-power-mode"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexcast/power-effects.git"
+  },
+  "version": "0.5.0"
+}

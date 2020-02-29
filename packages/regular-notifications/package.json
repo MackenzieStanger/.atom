@@ -1,0 +1,54 @@
+{
+  "_from": "https://www.atom.io/api/packages/regular-notifications/versions/0.5.0/tarball",
+  "_id": "regular-notifications@0.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ft33gkAn/US3WMnapg7nBv46rurg9X7Vw0ZN4VERb9QVj4q9ibVVFkcn7k4n5dfKVQLQb2NIf3Lrow5clTft/w==",
+  "_location": "/regular-notifications",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/regular-notifications/versions/0.5.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/regular-notifications/versions/0.5.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/regular-notifications/versions/0.5.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/regular-notifications/versions/0.5.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/regular-notifications/versions/0.5.0/tarball",
+  "_shasum": "733305584461c795c13b56512746ea7b8bc75fd7",
+  "_spec": "https://www.atom.io/api/packages/regular-notifications/versions/0.5.0/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-1191113-56900-1ob9emn.wges",
+  "activationCommands": {
+    "atom-workspace": "regular-notifications:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/iamsenthilprabu/regular-notifications/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Add regular notifications to Atom Editor",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://atom.io/packages/regular-notifications",
+  "keywords": [
+    "regular",
+    "notifications",
+    "reminder",
+    "commit",
+    "break",
+    "drink",
+    "water"
+  ],
+  "license": "MIT",
+  "main": "./lib/regular-notifications",
+  "name": "regular-notifications",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamsenthilprabu/regular-notifications.git"
+  },
+  "version": "0.5.0"
+}

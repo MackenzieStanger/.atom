@@ -1,0 +1,206 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+.tab-bar{
+  .tab{
+    font-weight: 900;
+  }
+}
+
+// style the background color of the tree view
+.tree-view {
+  // background-color: whitesmoke;
+  //background-image: url(/Users/mackenziestanger/.atom/packages/hedgehog-syntax/styles/img/bp.png);
+}
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
+}
+
+// only changes the cursor in the code editor
+atom-text-editor:not([mini]) .cursor {
+  transition: opacity 0.5s ease-in-out;
+  border-left: none;
+  border-bottom: solid;
+  border-bottom-width: thin;
+  border-bottom-color: rgba(38, 195, 217, 0.5);
+  background: linear-gradient(transparent, rgba(38, 195, 217, 0.5));
+  z-index: -1;
+
+}
+
+atom-text-editor {
+  // .indent-guide{
+  //   color: blue
+  // }
+  .line-number.cursor-line.cursor-line-no-selection{
+    background-color: rgba(35, 165, 221, 0.7);
+    border-left: rgba(35, 165, 221, 1);
+    border-left-style:solid;
+    border-left-width: 5px;
+  }
+
+  .gutter.line-number.bookmarked.icon-right{
+    color: white;
+  }
+
+}
+
+atom-text-editor.editor .syntax--todo, .syntax--fixme {
+  background: rgba(0,255,0,.05);
+  display: inline-block;
+  position: relative;
+  color:  rgba(0,255,0,.5);
+  font-weight: bold;
+  &:before, &:after {
+    position: absolute;
+    display: block;
+    content: '';
+    top: 0;
+    z-index: 999;
+    height: 100%;
+    width: 1024px;
+    background: inherit;
+    pointer-events: none;
+    z-index: 9999;
+  }
+  &:before {
+    right: 100%;
+    content: '';
+    text-align: right;
+  }
+  &:after {
+    left: 100%;
+  }
+}
+
+atom-text-editor.editor .syntax--fixme {
+  color: rgba(255,0,0,1);
+  background: rgba(255,0,0,0.4);
+}
+
+atom-text-editor.editor .syntax--punctuation.syntax--definition.syntax--comment, .syntax--comment{
+  color: grey;
+}
+
+
+.syntax--punctuation.syntax--section{
+    color: white;
+
+}
+.syntax--punctuation.syntax--terminator{
+    color: white;
+}
+
+.syntax--meta.syntax--function-call.syntax--c{
+    color: rgb(0, 255, 209);
+}
+
+.syntax--punctuation.syntax--separator.syntax--delimiter.syntax--c {
+    color: white;
+}
+
+.syntax--comment.syntax--banner.syntax--c{
+    color: rgb(255, 191, 0);
+}
+
+.syntax--comment.syntax--banner.syntax--end.syntax--c{
+    color: rgb(255, 191, 0);
+}
+
+.syntax--comment.syntax--doxygen.syntax--c{
+    color: rgb(0, 140, 255);
+}
+
+.syntax--comment.syntax--doxygen.syntax--command.syntax--c{
+    color: white;
+    background-color: rgb(145, 80, 235);
+}
+
+/*
+atom-text-editor.editor .syntax--entity.syntax--name.syntax--function {
+  color: rgba(45, 255, 180, 1);
+}
+*/
+
+.syntax--keyword.syntax--control {
+  color: #039dfc !important;
+}
+
+.icon[data-name$=".h"]:before{
+  font-family: "FontAwesome";
+  content: "\f1dc";
+}
+
+// USST Directory Icons
+.directory > .header > .icon{
+  &[data-path="/Users/mackenziestanger/USST/software-and-command"]:before{
+    font-family: "File-Icons";
+    content: "\1F680";
+    color: rgb(0, 167, 21)
+  }
+}
+
+.directory > .header > .icon{
+  &[data-path="/Users/mackenziestanger/USST/software-and-command/bootloader"]:before{
+    font-family: "FontAwesome";
+    content: "\F0C7";
+    color: rgb(0, 71, 255)
+  }
+}
+
+.directory > .header > .icon{
+  &[data-path="/Users/mackenziestanger/USST/software-and-command/comms-processing"]:before{
+    font-family: "MFizz";
+    content: "\F101";
+    color: #d40000
+  }
+}
+
+.directory > .header > .icon{
+  &[data-path="/Users/mackenziestanger/USST/software-and-command/housekeeping"]:before{
+    font-family: "FontAwesome";
+    content: "\F187";
+    color: rgb(255, 153, 0)
+  }
+}
+
+.directory > .header > .icon{
+  &[data-path="/Users/mackenziestanger/USST/software-and-command/image-processing"]:before{
+    font-family: "FontAwesome";
+    content: "\F03E";
+    color: rgb(150, 0, 255)
+  }
+}
+
+.directory > .header > .icon{
+  &[data-path="/Users/mackenziestanger/USST/software-and-command/main-application"]:before{
+    font-family: "File-Icons";
+    content: "\E93A";
+    color: rgb(0, 255, 217)
+  }
+}
+
+.directory > .header > .icon{
+  &[data-path="/Users/mackenziestanger/USST/software-and-command/payload-processing"]:before{
+    font-family: "File-Icons";
+    content: "\E949";
+    color: rgb(242, 255, 0)
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_from": "https://www.atom.io/api/packages/language-todo-more-words/versions/2.7.0/tarball",
+  "_id": "language-todo-more-words@2.7.0",
+  "_inBundle": false,
+  "_integrity": "sha512-vh2oeUUtniqW6kWVdvi7iFS3mRKGaaJ8QbMeVAipuSf8VWnE4gv+YKi/g7SCsMLHae2HDEgeR1U24vsEYvBxDA==",
+  "_location": "/language-todo-more-words",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/language-todo-more-words/versions/2.7.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-todo-more-words/versions/2.7.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-todo-more-words/versions/2.7.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-todo-more-words/versions/2.7.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/language-todo-more-words/versions/2.7.0/tarball",
+  "_shasum": "f04a626e6001d4764beeffbb58334a06b11b1229",
+  "_spec": "https://www.atom.io/api/packages/language-todo-more-words/versions/2.7.0/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-1191112-56208-bio7f9.puswl",
+  "bugs": {
+    "url": "https://github.com/jameelmoses/atom-language-todo-more-words/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Extra words highlighting support in Atom",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/jameelmoses/atom-language-todo-more-words#readme",
+  "keywords": [
+    "todo"
+  ],
+  "license": "MIT",
+  "name": "language-todo-more-words",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameelmoses/atom-language-todo-more-words.git"
+  },
+  "version": "2.7.0"
+}

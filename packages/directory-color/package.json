@@ -1,0 +1,58 @@
+{
+  "_from": "https://www.atom.io/api/packages/directory-color/versions/0.3.0/tarball",
+  "_id": "directory-color@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-XJ/W0u6GX1IpuUP0B04jFCy7k2ACJDc4gSFVdtpgIqFz8HAdZzhkxJuvIgDKNjPh4JiSw5rkuodVfdzIanmk0w==",
+  "_location": "/directory-color",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/directory-color/versions/0.3.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/directory-color/versions/0.3.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/directory-color/versions/0.3.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/directory-color/versions/0.3.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/directory-color/versions/0.3.0/tarball",
+  "_shasum": "e99a223ec30f9596e3d0048e4a6ff6f41b4a4481",
+  "_spec": "https://www.atom.io/api/packages/directory-color/versions/0.3.0/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-1191112-56314-1rtfpzr.53k4",
+  "bugs": {
+    "url": "https://github.com/luisDanielRoviraContreras/directory-color/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "focusColor": {
+      "type": "color",
+      "description": "color the focus color and directory",
+      "default": "rgb(9, 122, 186)"
+    }
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "deprecated": false,
+  "description": "change the focus color in the directory to know better where you are.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/luisDanielRoviraContreras/directory-color#readme",
+  "keywords": [
+    "directory",
+    "color",
+    "style",
+    "background",
+    "files"
+  ],
+  "license": "MIT",
+  "main": "./lib/directory-color",
+  "name": "directory-color",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisDanielRoviraContreras/directory-color.git"
+  },
+  "version": "0.3.0"
+}

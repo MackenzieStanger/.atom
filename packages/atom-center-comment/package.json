@@ -1,0 +1,53 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-center-comment/versions/0.3.3/tarball",
+  "_id": "atom-center-comment@0.3.3",
+  "_inBundle": false,
+  "_integrity": "sha512-pxCQCcoGtyfB1ZG9IxNHDfsl1/hKby/2oegqZHdLptaB8AgQac6+uUxExwnH/IS6wwmlCDQ6F9H0xIBe6hL9mQ==",
+  "_location": "/atom-center-comment",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-center-comment/versions/0.3.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-center-comment/versions/0.3.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-center-comment/versions/0.3.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-center-comment/versions/0.3.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-center-comment/versions/0.3.3/tarball",
+  "_shasum": "451d57fdd6af205ac8b7da60b35266b3f76b380c",
+  "_spec": "https://www.atom.io/api/packages/atom-center-comment/versions/0.3.3/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-1191030-37198-1w81xcx.c6q6",
+  "activationCommands": {
+    "atom-workspace": "atom-center-comment:center"
+  },
+  "bugs": {
+    "url": "https://github.com/mfuroyama/center-comment/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Atom Editor package for centering comments",
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/mfuroyama/center-comment#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/atom-center-comment",
+  "name": "atom-center-comment",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfuroyama/center-comment.git"
+  },
+  "scripts": {
+    "test": "atom --test spec/atom-center-comment-spec.js"
+  },
+  "version": "0.3.3"
+}

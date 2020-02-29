@@ -1,0 +1,54 @@
+{
+  "_from": "https://www.atom.io/api/packages/folded-code-preview/versions/0.2.5/tarball",
+  "_id": "folded-code-preview@0.2.5",
+  "_inBundle": false,
+  "_integrity": "sha512-n/UIAcIAPVbrlLQOrMV1HKqdLH+s+itUaAo3mj0iRrpaCt5m9t/qQaFJwR0rHh8GWTNacI+0bVH6RkF6C7k4Sg==",
+  "_location": "/folded-code-preview",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/folded-code-preview/versions/0.2.5/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/folded-code-preview/versions/0.2.5/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/folded-code-preview/versions/0.2.5/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/folded-code-preview/versions/0.2.5/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/folded-code-preview/versions/0.2.5/tarball",
+  "_shasum": "63c617662a357c1d646438717c54d1bba551d8cf",
+  "_spec": "https://www.atom.io/api/packages/folded-code-preview/versions/0.2.5/tarball",
+  "_where": "/private/var/folders/6n/0fm3c36n61g90ylz_3h919500000gn/T/apm-install-dir-1191120-3137-16qix3a.foez",
+  "bugs": {
+    "url": "https://github.com/73CN0109y-Packages/folded-code-preview/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "etch": "^0.12.5",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4"
+  },
+  "deprecated": false,
+  "description": "Just a simple package that allows you to hover over collapsed code and preview the contents",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/73CN0109y-Packages/folded-code-preview#readme",
+  "keywords": [
+    "fold",
+    "code",
+    "preview",
+    "folded",
+    "collapse",
+    "collapsed"
+  ],
+  "license": "MIT",
+  "main": "./lib/folded-code-preview",
+  "name": "folded-code-preview",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/73CN0109y-Packages/folded-code-preview.git"
+  },
+  "version": "0.2.5"
+}

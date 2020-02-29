@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle Regular Notifications",
+        "command": "regular-notifications:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Regular notifications",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "regular-notifications:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
