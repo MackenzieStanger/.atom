@@ -1,0 +1,18 @@
+{
+    "context-menu": {
+        "atom-text-editor": [{
+            "label": "Banner Comment",
+            "command": "banner-comment:banner"
+        }]
+    },
+    "menu": [{
+        "label": "Packages",
+        "submenu": [{
+            "label": "Banner Comment",
+            "submenu": [{
+                "label": "Banner",
+                "command": "banner-comment:banner"
+            }]
+        }]
+    }]
+}

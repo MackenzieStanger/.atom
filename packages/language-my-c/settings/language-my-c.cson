@@ -1,0 +1,20 @@
+# If you want some examples of settings, check out:
+# https://github.com/atom/language-gfm/blob/master/settings/gfm.cson
+
+'.source.my-c':
+  'editor':
+    'commentStart': '// '
+    'increaseIndentPattern': '(?x)
+       ^ .* \\{ [^}"\']* $
+      |^ .* \\( [^\\)"\']* $
+      |^ \\s* (public|private|protected): \\s* $
+      |^ \\s* @(public|private|protected) \\s* $
+      |^ \\s* \\{ \\} $
+      '
+    'decreaseIndentPattern': '(?x)
+       ^ \\s* (\\s* /[*] .* [*]/ \\s*)* \\}
+      |^ \\s* (\\s* /[*] .* [*]/ \\s*)* \\)
+      |^ \\s* (public|private|protected): \\s* $
+      |^ \\s* @(public|private|protected) \\s* $
+      '
+    'foldEndPattern': '(?<!\\*)\\*\\*/|^\\s*\\}'
