@@ -58,5 +58,5 @@ export default (line, language) => {
     const lineLen = atom.config.get('atom-center-comment.lineLength') || DEFAULT_LINE_LENGTH;
     const comment = padString(commentStr, lineLen - outerLen, pad);
 
-    return [preComment.padEnd(lineLen - outerLen + 2, pad),'\n//', comment,'\n//', postComment.padEnd(lineLen - outerLen, pad)].join('');
+    return ['//'.padEnd(lineLen - outerLen + 2, '='),'\n//', comment,'\n', '//'.padEnd(lineLen - outerLen + 2, '=')].join('');
 };
